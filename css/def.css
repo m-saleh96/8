@@ -1,0 +1,335 @@
+@font-face {
+	font-family: 'satisfy';
+	src: url("../webfonts/satisfy.woff2"),
+		 url("../webfonts/satisfy.woff"),
+		 url("../webfonts/satisfy.ttf");
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+html {
+	font-size: 16px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+#sec-1{
+	background-color: black;
+	text-align: justify;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 9999;
+}
+nav a {
+	color: #8c8c8c !important;
+	font-size: 1.2rem;
+	padding: 10px 8px !important;
+}
+
+nav button {
+	border: 3px solid white !important;
+}
+
+nav img{
+	width: 40px;
+	padding-right: 5px;
+}
+.green{
+	color:#78b830;
+}
+nav{
+	font-family: satisfy;
+}
+
+
+
+
+
+#sec-2{
+	background: url("../img/Banner-1.jpg") no-repeat  ;
+	background-size: cover;
+}
+#sec-2 button{
+	padding: 1rem 3rem;
+	border-radius: 50px;
+	margin-right: 1rem;
+	margin-bottom: 1rem;
+	
+}
+#sec-2 article{
+	margin-bottom: 3rem;
+}
+
+#sec-2 h2 , #sec-2 h3{
+	font-family: satisfy;
+
+}
+
+#sec-3{
+	background-color: #f2f2f2;
+
+}
+#sec-3 article{
+	padding: 10px 10px;
+}
+#sec-3 article>div h4{
+	font-size: 14px;
+}
+#sec-3 article .brdr {
+	border-left: 4px solid #78b830;
+}
+.brdr2{
+	border: 2px solid white;
+	border-radius: 10px;
+	padding: 10px 20px;
+}
+
+#sec-3 img{
+	border: 1px solid #78b830;
+	padding: 3px;
+
+
+}
+#sec-3 .h6{
+	background-color: white;
+	border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+#sec-4{
+	background-color: #f2f2f2;
+
+}
+#sec-4 article{
+	padding: 10px 30px;
+}
+#sec-4 h4{
+	font-size: 16px;
+	font-weight: 700;
+}
+#sec-4 h2{
+	font-size: 35px;
+	font-weight: bolder;
+}
+#sec-4  .brdr {
+	border-left: 4px solid #78b830;
+}
+.brdr2{
+	border: 2px solid white;
+	border-radius: 10px;
+	padding: 10px 20px;
+}
+#sec-4 a{
+	text-decoration: none;
+}
+#sec-4 a:hover{
+	color: #78b830;
+}
+
+
+
+.p{
+	color: #7a7a7a;
+}
+.serv{
+	background-color: white;
+
+	padding: 15px 20px 1px;
+	border-radius: 10px;
+
+}
+.f12{
+	font-size: 12px;
+}
+
+#sec-5{
+	background-image: url("../img/Banner-2.jpg");
+	background-position: center;
+	padding: 20px 0;
+}
+
+.brdrser{
+	border-left: 4px solid black;
+}
+#sec-5 h4{
+	font-size: 16px;
+	font-weight: 700;
+}
+#sec-5 h2{
+	font-size: 35px;
+	font-weight: bolder;
+}
+#sec-5 a{
+	margin-top: 20px;
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	background-color: black;
+	padding: 10px 20px;
+	border-radius: 20px;
+}
+
+
+
+
+#sec-6{
+	margin-top: 40px;
+
+}
+
+#sec-6 h4{
+	font-size: 16px;
+	font-weight: 700;
+}
+#sec-6 h2{
+	font-size: 35px;
+	font-weight: bolder;
+}
+#sec-6  .brdr {
+	border-left: 4px solid #78b830;
+}
+.green2{
+	background-color: #78b830;
+}
+.gray{
+	background-color: #f3f3f3;
+}
+.red{
+	color: red;
+}
+.brd{
+
+	border-radius: 10px;
+}
+#sec-6 a{
+	display: inline-block;
+	padding: 5px 15px;
+	border-radius: 20px;
+	margin: 20px 0;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+#sec-7 article{
+	padding: 10px 30px;
+}
+#sec-7 h4{
+	font-size: 16px;
+	font-weight: 700;
+}
+#sec-7 h2{
+	font-size: 35px;
+	font-weight: bolder;
+}
+#sec-7  .brdr {
+	border-left: 4px solid #78b830;
+}
+.brdr2{
+	border: 2px solid white;
+	border-radius: 10px;
+	padding: 10px 20px;
+}
+
+#sec-7 .brdrbt{
+	border-bottom: thin dotted #78b830;
+}
+
+#sec-7 header a{
+	display: inline-block;
+	padding: 5px 15px;
+	border: thin solid #78b830;
+	border-radius: 15px;
+	cursor: pointer;
+}
+.brdser{
+	outline: thin dotted #cccccc;
+	outline-offset: 2px;
+
+
+	border-radius: 15px;
+}
+
+#sec-7 .col-7{
+	position: relative;
+}
+#sec-7 .col-7 .pos{
+	position: absolute;
+	right: 15px;
+	bottom: -15px;
+}
+
+
+
+#sec-8{
+	background-color: #f3f3f3;
+}
+
+#sec-8 article{
+	padding: 10px 30px;
+}
+
+#sec-8 h2{
+	font-size: 20px;
+	font-weight: bolder;
+}
+#sec-8  .brdr {
+	border-left: 4px solid #78b830;
+}
+#sec-8 a{
+	text-decoration: none;
+	font-size: 14px;
+	display: block;
+	padding: 3px 0;
+}
+#sec-8 a:hover{
+	color: #78b830;
+}
+
+#sec-8 input{
+	height: 45px ;
+	width: 66%;
+	border: none;
+	padding-left: 10px;
+}
+#sec-8 button{
+	height: 50px ;
+	width: 30%;
+	font-size: 12px;
+	color: white;
+	background-color: #78b830;
+	border: none;
+	cursor: pointer;
+}
+#sec-8 h6{
+	padding: 10px 0;
+}
+#sec-8 h6+div a{
+
+	display: inline-block  ;
+}
+#sec-8  .icons{
+	padding: 10px;
+	border: thin solid #78b830;
+	text-align: center;
+	display: inline-block !important ;
+}
+
+#sec-9{
+	background-color: #212121;
+	padding: 15px 0;
+}
